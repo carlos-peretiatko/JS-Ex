@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center; 
+    background-color: rgb(190, 207, 207);
+}

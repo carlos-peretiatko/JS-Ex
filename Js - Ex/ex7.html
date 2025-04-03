@@ -1,0 +1,26 @@
+ <!-- Crie um código JavaScript que lê o conteúdo de uma array e cria uma lista não
+// ordenada (ul) na página com o conteúdo desse array. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <ul id="lista"></ul>
+    <script>
+        
+        let array= prompt("Digite os valores separados por vírgula: ").split(",")
+        let lista= document.getElementById("lista") // Seleciona o elemento <ul> pelo ID "lista"
+       // adicionar cada item do array como elemento <li> na lista
+       for (let i = 0; i < array.length; i++) {
+           let item = document.createElement("li")
+           item.textContent = array[i]
+           lista.appendChild(item)
+       }
+   </script>
+   
+</body>
+</html>
